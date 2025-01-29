@@ -10,8 +10,8 @@ function renderTasks() {
     const li = document.createElement('li');
     li.innerHTML = `
       <span class="task-text">${task.text}</span>
-      <button class="edit-btn" onclick="editTask(${index})">Edit</button>
-      <button onclick="deleteTask(${index})">Delete</button>
+      <button class="edit-btn" onclick="editTask(${index})">EDIT</button>
+      <button onclick="deleteTask(${index})">DELETE</button>
     `;
     taskListElement.appendChild(li);
   });
